@@ -1,6 +1,6 @@
 {
     "name": "@r.fathi/expo-mapboxnavigation",
-    "version": "0.1.8",
+    "version": "0.2.10",
     "homepage": "https://github.com/redafahti/expo-mapbox-navigation",
     "description": "My new module",
     "main": "build/index.js",

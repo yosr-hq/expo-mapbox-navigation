@@ -38,7 +38,7 @@ class ExpoMapboxNavigationModule : Module() {
     }
 
     View(ExpoMapboxNavigationView::class) {
-        Events("onRouteProgressChanged", "onCancelNavigation", "onWaypointArrival", "onFinalDestinationArrival", "onRouteChanged", "onUserOffRoute", "onLocationChange", "onRouteReady")
+        Events("onRouteProgressChanged", "onCancelNavigation", "onWaypointArrival", "onNextRouteLegStart", "onFinalDestinationArrival", "onRouteChanged", "onUserOffRoute", "onLocationChange", "onRouteReady")
 
         Prop("coordinates") { view: ExpoMapboxNavigationView, coordinates: List<Map<String, Any>> ->
             val points = mutableListOf<Point>()
@@ -48,7 +48,6 @@ class ExpoMapboxNavigationModule : Module() {
                 if(longValue is Double && latValue is Double){
                     points.add(Point.fromLngLat(longValue, latValue))
                 }
-                
             }
             view.setCoordinates(points)
         }

@@ -3,7 +3,20 @@
 <resources>
     <style name="ManeuverTextAppearance" parent="TextAppearance.AppCompat">
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">20dp</item>
+        <item name="android:textSize">18dp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">700</item>
     </style>
+    <style name="MapboxCustomManeuverTurnIconStyle" parent="MapboxStyleTurnIconManeuver">
+        <item name="maneuverTurnIconColor">#FFFFFF</item>
+        <item name="maneuverTurnIconShadowColor">#f0f9ff</item>
+    </style>
+    <style name="StepDistanceTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
 </resources>
