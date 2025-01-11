@@ -1,7 +1,5 @@
 # expo-mapbox-navigation
 
-My new module
-
 # API documentation
 
 - [Documentation for the main branch](https://github.com/expo/expo/blob/main/docs/pages/versions/unversioned/sdk/mapbox-navigation.md)
@@ -25,6 +23,21 @@ npm install expo-mapbox-navigation
 
 Run `npx pod-install` after installing the npm package.
 
+```
+npm run build
+```
+
+```
+npm run prepare
+```
+
+```
+npm run prepublishOnly
+```
+
+```
+npm publish
+```
 
 ### Configure for Android
 

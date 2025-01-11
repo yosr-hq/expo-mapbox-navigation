@@ -1,8 +1,8 @@
 {
-    "name": "@r.fathi/expo-mapboxnavigation",
-    "version": "0.2.10",
+    "name": "@yosr-hq/expo-mapbox-navigation",
+    "version": "0.0.1",
     "homepage": "https://github.com/redafahti/expo-mapbox-navigation",
-    "description": "My new module",
+    "description": "Yosr expo mapbox navigation",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "scripts": {
